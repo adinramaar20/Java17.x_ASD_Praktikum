@@ -52,7 +52,7 @@ public class Train2 {
                 }
             } else {
                 if (listNode.isEmpty()){
-                    System.out.println("<-");
+                    System.out.println("<");
                 }
                 showLokomotif(gerbong);
             }
