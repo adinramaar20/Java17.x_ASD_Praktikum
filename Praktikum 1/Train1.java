@@ -6,9 +6,8 @@ public class Train1 {
     static Scanner in = new Scanner(System.in);
     
     public static void main(String[] args) {
-        /* Masukkan kode di sini. Selamat mengerjakan! */
         
-		LinkedList<String> listNode = new LinkedList<String>();
+	LinkedList<String> listNode = new LinkedList<String>();
         int count = in.nextInt();
         in.nextLine();
         String kata, gerbong = "";
@@ -39,8 +38,6 @@ public class Train1 {
     }
 }
 
-
-/* Jangan ubah kode di bawah ini */
 
 class LinkedList<T> {
     private Node<T> head, tail;
