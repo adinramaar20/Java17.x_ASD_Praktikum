@@ -1,0 +1,41 @@
+PT.Trat adalah sebuah perusahaan yang bergerak di bidang kereta api. Perusahaan ini ingin membuat program untuk mensimulasikan perangkaian gerbong-gerbong kereta api. Setiap gerbong dilambangkan dengan sebuah huruf kapital. Terdapat 3 perintah yang akan diimplementasikan di program, yaitu:
+
+1. TAMBAH n AWAL : Memasang gerbong n di paling depan
+2. TAMBAH n AKHIR : Memasang gerbong n di paling belakang
+3. LIHAT : Melihat keadaan kereta sekarang
+Bantulah PT.Trat merancang program ini!
+
+Note:
+1. Hanya boleh menggunakan LinkedList yang telah disediakan. LinkedList tersebut mirip seperti LinkedList bawaan, tetapi hanya bisa melakukan 6 operasi, yaitu addFirst, addLast, getFirst, getLast, isEmpty, dan size.
+2. Tidak boleh mengimpor library lain selain yang telah diberikan di potongan kode.
+3. System.out.print* akan mencetak seluruh elemen LinkedList, dipisahkan dengan spasi.
+
+Input Format
+Baris pertama berisi sebuah bilangan n.
+n baris berikutnya berisi daftar perintah sesuai yang telah dijelaskan di deskripsi.
+
+Constraints
+0 < n <= 100
+
+Output Format
+Keadaan kereta api setiap kali dilihat. Setiap gerbong dipisahkan dengan "-".
+
+Sample Input 0
+5
+TAMBAH R AWAL
+TAMBAH Z AKHIR
+LIHAT
+TAMBAH O AWAL
+LIHAT
+
+Sample Output 0
+R-Z
+O-R-Z
+
+Sample Input 1
+2
+TAMBAH X AKHIR
+LIHAT
+
+Sample Output 1
+X
